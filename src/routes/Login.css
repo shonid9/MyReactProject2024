@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&family=Poppins&display=swap");
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 40px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.login-form .login-header {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.login-form .form-section {
+  margin-bottom: 20px;
+}
+.login-form .form-section .input-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+}
+.login-form .form-section .input-field:focus {
+  outline: none;
+}
+.login-form .form-section .error-message {
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.login-form .login-button {
+  padding: 10px;
+  background-color: #498ffc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.login-form .login-button:hover {
+  background-color: #70c1ff;
+}
+.login-form .login-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.login-form .login-buttons .signup-button,
+.login-form .login-buttons .guest-button {
+  padding: 10px;
+  background-color: transparent;
+  color: #498ffc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+.login-form .login-buttons .signup-button:hover,
+.login-form .login-buttons .guest-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.login-form .login-buttons .guest-button {
+  color: #498ffc;
+}/*# sourceMappingURL=Login.css.map */

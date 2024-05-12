@@ -1,0 +1,93 @@
+.site-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  /* Adjust background color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333333;
+  /* Adjust text color as needed */
+  display: flex;
+  align-items: center;
+}
+
+.brand svg {
+  margin-left: 5px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-right: 20px;
+  margin-bottom: 15px;
+  /* Add some space between search bar and other elements */
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #cccccc;
+  /* Add a light border */
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #007bff;
+  /* Highlight border on focus */
+}
+
+.nav-right a,
+.nav-right button {
+  text-decoration: none;
+  color: #333333;
+  /* Adjust text color as needed */
+  margin-right: 20px;
+  /* Add some space between navigation items */
+  font-size: 1rem;
+}
+
+.nav-right button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-right button:hover {
+  color: #007bff;
+  /* Change color on hover */
+}
+
+.nav-right button:focus {
+  outline: none;
+  /* Remove default focus outline */
+}
+
+.nav-right svg {
+  margin-right: 5px;
+  /* Add some space between icon and text */
+}
+
+.dark-mode-toggle {
+  margin-left: auto;
+  /* Push DarkModeToggle to the right */
+}/*# sourceMappingURL=NavBar.css.map */
